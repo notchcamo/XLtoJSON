@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m venv:*)",
+      "Bash(venvScriptspip:*)",
+      "Bash(venv/Scripts/pip install:*)",
+      "Bash(git init:*)",
+      "mcp__rider__list_directory_tree"
+    ]
+  }
+}
