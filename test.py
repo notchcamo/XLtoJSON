@@ -1,6 +1,6 @@
 import sys
 import pandas as pd
-from convert import convertXLtoJSON, convertJSONtoXL
+from convert import convert_xl_to_json, convert_json_to_xl
 
 # Parse command line args
 print("args: ", sys.argv)
@@ -10,9 +10,9 @@ dest = sys.argv[2]
 # Convert
 if source.endswith(".xlsx"):
     print("xlsx -> json")
-    convertXLtoJSON(source, dest)
+    convert_xl_to_json(source, dest)
     print("Done.")
 elif source.endswith(".json"):
     print("json -> xlsx")
-    convertJSONtoXL(source, dest)
+    convert_json_to_xl(source, dest)
     print("Done.")

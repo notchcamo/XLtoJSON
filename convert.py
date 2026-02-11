@@ -3,7 +3,7 @@ import os
 import re
 
 
-def convertXLtoJSON(xlsx_path: str, output_dir: str) -> None:
+def convert_xl_to_json(xlsx_path: str, output_dir: str) -> None:
     """Convert Excel file to JSON."""
     df = pd.read_excel(xlsx_path)
 
@@ -30,7 +30,7 @@ def convertXLtoJSON(xlsx_path: str, output_dir: str) -> None:
     output_path = os.path.join(output_dir, f"{base_name}.json")
     df.to_json(output_path, orient="records", force_ascii=False, indent=2)
 
-def convertJSONtoXL(json_path: str, output_dir: str) -> None:
+def convert_json_to_xl(json_path: str, output_dir: str) -> None:
     """Convert JSON file to Excel."""
     df = pd.read_json(json_path)
 
