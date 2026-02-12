@@ -6,7 +6,7 @@ def main():
     """Main entry point for XLtoJSON conversion tool.
 
     Usage:
-        python __main__.py <source_file> <output_dir>
+        XLtoJSON <source_file> <output_dir>
 
     Args:
         source_file: Path to .xlsx or .json file
@@ -14,7 +14,7 @@ def main():
     """
     # Validate command line arguments
     if len(sys.argv) < 3:
-        print("Usage: python __main__.py <source_file> <output_dir>")
+        print("Usage: XLtoJSON <source_file> <output_dir>")
         print("  source_file: Path to .xlsx or .json file")
         print("  output_dir: Directory where output will be saved")
         sys.exit(1)

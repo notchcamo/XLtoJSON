@@ -5,7 +5,23 @@
       "Bash(venvScriptspip:*)",
       "Bash(venv/Scripts/pip install:*)",
       "Bash(git init:*)",
-      "mcp__rider__list_directory_tree"
+      "mcp__rider__list_directory_tree",
+      "mcp__rider__rename_refactoring",
+      "Bash(python:*)",
+      "Bash(venv\\\\Scripts\\\\python.exe:*)",
+      "Bash(cmd /c \"cd /d d:\\\\XLtoJSON && venv\\\\Scripts\\\\python.exe test.py output\\\\SponsorPowerTable.json output_test\")",
+      "Bash(cmd /c \"cd /d d:\\\\XLtoJSON && venv\\\\Scripts\\\\python.exe test.py output_test\\\\SponsorPowerTable.xlsx output_test2\")",
+      "Bash(cmd /c \"dir /s /b d:\\\\XLtoJSON\\\\output_test*\")",
+      "Bash(cmd /c:*)",
+      "mcp__rider__execute_terminal_command",
+      "Bash(cmd.exe /c \"cd /d d:\\\\XLtoJSON && venv\\\\Scripts\\\\python.exe test.py output\\\\SponsorPowerTable.json output_test && echo SUCCESS\")",
+      "Bash(d:/XLtoJSON/venv/Scripts/python.exe:*)",
+      "Bash(echo:*)",
+      "Bash(ls:*)",
+      "Bash(./venv/Scripts/activate:*)",
+      "Bash(pip install:*)",
+      "Bash(./venv/Scripts/pyinstaller:*)",
+      "Bash(./dist/XLtoJSON.exe:*)"
     ]
   }
 }
